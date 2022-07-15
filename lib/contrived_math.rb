@@ -5,4 +5,8 @@ module ContrivedMath
   def self.add(first, second)
     first + second
   end
+
+  def self.subtract(first, second)
+    first - second
+  end
 end
