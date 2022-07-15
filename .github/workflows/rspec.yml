@@ -14,7 +14,7 @@ jobs:
         run: |
           bundle exec rspec
       - name: Add code coverage comment
-        uses: Nef10/lcov-reporter-action@v0.3.0
+        uses: romeovs/lcov-reporter-action@v0.2.16
         with:
           lcov-file: ./coverage/lcov/ruby-simplecov-workflow.lcov
           github-token: ${{ secrets.GITHUB_TOKEN }}
